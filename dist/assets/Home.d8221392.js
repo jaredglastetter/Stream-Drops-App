@@ -1,0 +1,1 @@
+import{ae as e,C as o,D as t,E as a,F as r}from"./index.8c8c234d.js";import{V as s}from"./VContainer.49234544.js";import"./tag.090dc54c.js";const n={name:"Home"};function c(p,m,_,f,i,l){return o(),t(s,null,{default:a(()=>[r("Splash Zone")]),_:1})}const $=e(n,[["render",c]]);export{$ as default};

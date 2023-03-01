@@ -1,0 +1,1 @@
+import{r as i,a5 as f,k as u,W as v}from"./index.8c8c234d.js";function c(r){const o=i(),t=i(!1);if(f){const s=new IntersectionObserver(e=>{r==null||r(e,s),t.value=!!e.find(n=>n.isIntersecting)});u(()=>{s.disconnect()}),v(o,(e,n)=>{n&&(s.unobserve(n),t.value=!1),e&&s.observe(e)},{flush:"post"})}return{intersectionRef:o,isIntersecting:t}}export{c as u};
